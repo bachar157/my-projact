@@ -1,0 +1,58 @@
+@mixin slider ($border,$backround,$h1hover,$h2hover,$h1,$h2,$categoryslider3back,$btnprimary) {
+
+    h1{
+        background-color: $h1;
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        border: $border;
+        &:hover{
+            background-color: $h1hover;
+        }
+    }
+    h2{
+        background-color: $h2;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        &:hover{
+            background-color: $h2hover;
+            border-top-right-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+    }
+        #carousel-feature{
+       background-color:$backround !important;
+       border-top-left-radius: 150px;
+       border-bottom-right-radius: 150px;
+       
+        .product-details{
+            border: 1px solid $border;
+            .product-category{
+                border: 1px solid $border;
+                background-color: $categoryslider3back;
+            }
+            .custom-btn-primary{
+                color:wheat;
+                border-color: $categoryslider2back; 
+                &:hover{
+                    color: $btnprimary;
+                    background-color: $h2;
+                    border: $border;
+                }
+
+
+            }
+
+        }
+        .custom-carousel-indicators-primary{
+            img{
+
+                &.active{
+                    border-color: #a10000 !important;
+
+                }
+              
+            }
+        }
+    }
+    
+}
