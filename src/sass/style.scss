@@ -10,6 +10,72 @@ body {
     font-family: "cairoFont", 'Cambria, Cochin, Georgia, Times, Times New Roman, serif' !important;
 }
 
+
+.sass{
+    
+.navbar {
+        background-color: #AC7B53;
+        
+            .navbar-nav{
+                li{
+                    border: #000 ;
+                    &:hover{
+                        background-color: #000000 !important;
+                      
+                    }
+                    &:active{
+                        background-color: #000000 !important;
+                    }
+                   
+                }
+            }
+        
+     
+}
+
+
+
+.sidebar{
+    background-color: #AC7B53;
+    .list-group-item{
+        &:hover{
+            background-color: #AC7B53;
+        }
+    }
+}
+
+
+
+                    .publis-comments {
+                        .card  {
+
+                            .btn{
+
+                        background-color: #AC7B53;
+                        border-color: #000000;
+                        color: rgb(8, 7, 7);
+                            }
+                               }
+                                    }
+
+       
+                .other-products {
+                    .title h5 {
+                        color: #2a008d;
+
+                    }
+                }
+               
+             
+                 .contact{
+                    
+                     background-color: #AC7B53;
+                     h2{
+                         color: #000000;
+                     }
+                    
+                 }
+}
 .slider1{
     h1{
         background-color: #8d4200 ;
@@ -17,7 +83,7 @@ body {
         border-bottom-right-radius: 100px;
         border: #000000;
         &:hover{
-            background-color: #ffd4b0;
+            background-color: #AC7B53;
         }
     }
     h2{
@@ -71,9 +137,9 @@ body {
 }
 
  
-.slider2{
+.sass1{
     @include slider ($border1,$slider2background,$slider2h1hover,$slider2h2hover,$slider2h1,$slider2h2,$categoryslider2back,$btnprimary1 !important)
 }
-.slider3{
+.sass2{
     @include slider($border1,$slider3background,$slider3h1hover,$slider3h2hover,$slider3h1,$slider3h2,$categoryslider3back,$btnprimary2 !important) 
 }

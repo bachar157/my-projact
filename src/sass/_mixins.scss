@@ -1,5 +1,84 @@
 @mixin slider ($border,$backround,$h1hover,$h2hover,$h1,$h2,$categoryslider3back,$btnprimary) {
 
+
+
+
+
+
+
+
+
+    
+    
+        .navbar {
+                background-color: $backround;
+                
+                    .navbar-nav{
+                        li{
+                            border:$border ;
+                            &:hover{
+                                background-color: $h1hover !important;
+                              
+                            }
+                            &:active{
+                                background-color: $h2!important;
+                            }
+                           
+                        }
+                    }
+                
+             
+        }
+        
+        
+        
+        .sidebar{
+            background-color: $backround;
+            .list-group-item{
+        &:hover{
+            background-color: $backround;
+        }
+    }
+        }
+        
+        
+        
+                            .publis-comments {
+                                .card  {
+        
+                                    .btn{
+        
+                                background-color: $backround;
+                                border-color: $border;
+                                color:$h1;
+                                    }
+                                       }
+                                            }
+        
+               
+                        .other-products {
+                            .title h5 {
+                                color: $h2;
+        
+                            }
+                        }
+                       
+                     
+                         .contact{
+                            
+                             background-color: $backround;
+                             h2{
+                                 color: $h2;
+                             }
+                            
+                         }
+        
+
+    
+
+
+
+
     h1{
         background-color: $h1;
         border-top-left-radius: 100px;

@@ -102,5 +102,13 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: "css/style.css"
         }),
+        new HtmlWebpackPlugin({
+          template: './src/Turkish Coffee.html',
+          filename: 'Turkish Coffee.html',
+      }),
+      new HtmlWebpackPlugin({
+        template: './src/coffee.html',
+        filename: 'coffee.html',
+    }),
     ]
 }
