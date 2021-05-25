@@ -10393,14 +10393,14 @@ body {
 .sass .navbar {
   background-color: #AC7B53;
 }
-.sass .navbar .navbar-nav li {
-  border: #000;
+.sass .navbar .navbar-nav .nav-link:hover {
+  background-color: #8b4e1b !important;
 }
-.sass .navbar .navbar-nav li:hover {
-  background-color: #000000 !important;
+.sass .navbar .navbar-nav #myDropdown {
+  background-color: #AC7B53;
 }
-.sass .navbar .navbar-nav li:active {
-  background-color: #000000 !important;
+.sass .navbar .navbar-nav #myDropdown:hover {
+  background-color: #8b4e1b;
 }
 .sass .sidebar {
   background-color: #AC7B53;
@@ -10410,74 +10410,73 @@ body {
 }
 .sass .publis-comments .card .btn {
   background-color: #AC7B53;
-  border-color: #000000;
-  color: #080707;
+  border-color: #FC7307;
+  color: #8b4e1b;
 }
 .sass .other-products .title h5 {
-  color: #2a008d;
+  color: #8b4e1b;
 }
 .sass .contact {
   background-color: #AC7B53;
 }
 .sass .contact h2 {
-  color: #000000;
+  color: #8b4e1b;
 }
-
-.slider1 h1 {
-  background-color: #8d4200;
+.sass h1 {
+  background-color: #8b4e1b;
   border-top-left-radius: 100px;
   border-bottom-right-radius: 100px;
-  border: #000000;
+  border: #FC7307;
 }
-.slider1 h1:hover {
+.sass h1:hover {
   background-color: #AC7B53;
 }
-.slider1 h2 {
-  background-color: #f0c6a2;
+.sass h2 {
+  background-color: #8b4e1b;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-.slider1 h2:hover {
-  background-color: #ffb273;
+.sass h2:hover {
+  background-color: #AC7B53;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
 }
-.slider1 #carousel-feature {
+.sass #carousel-feature {
   background-color: #AC7B53 !important;
   border-top-left-radius: 150px;
   border-bottom-right-radius: 150px;
 }
-.slider1 #carousel-feature .product-details {
-  border: 1px solid #dddddb;
+.sass #carousel-feature .product-details {
+  border: 1px solid #FC7307;
 }
-.slider1 #carousel-feature .product-details .product-category {
-  border: 1px solid #8a8a61;
-  background-color: #f7f8f3;
+.sass #carousel-feature .product-details .product-category {
+  border: 1px solid #FC7307;
+  background-color: #ac9f95;
 }
-.slider1 #carousel-feature .product-details .custom-btn-primary {
-  color: #f8ad47;
-  border-color: #f8ad47;
+.sass #carousel-feature .product-details .custom-btn-primary {
+  color: wheat;
+  border-color: #830309;
 }
-.slider1 #carousel-feature .product-details .custom-btn-primary:hover {
-  color: #000000;
-  background-color: #a10000;
-  border: #a10000;
+.sass #carousel-feature .product-details .custom-btn-primary:hover {
+  color: #AC7B53 !important;
+  background-color: #8b4e1b;
+  border: #FC7307;
 }
-.slider1 #carousel-feature .custom-carousel-indicators-primary img.active {
-  border-color: #a10000 !important;
+.sass #carousel-feature .custom-carousel-indicators-primary img.active {
+  border-color: #FC7307 !important;
 }
 
 .sass1 .navbar {
   background-color: #bbbbbb;
 }
-.sass1 .navbar .navbar-nav li {
-  border: #FC7307;
-}
-.sass1 .navbar .navbar-nav li:hover {
-  background-color: #cccccc !important;
-}
-.sass1 .navbar .navbar-nav li:active {
+.sass1 .navbar .navbar-nav .nav-link:hover {
   background-color: #a07d7d !important;
+}
+.sass1 .navbar .navbar-nav #myDropdown {
+  background-color: #bbbbbb;
+}
+.sass1 .navbar .navbar-nav #myDropdown:hover {
+  background-color: #613e23;
 }
 .sass1 .sidebar {
   background-color: #bbbbbb;
@@ -10540,20 +10539,20 @@ body {
   border: #FC7307;
 }
 .sass1 #carousel-feature .custom-carousel-indicators-primary img.active {
-  border-color: #a10000 !important;
+  border-color: #FC7307 !important;
 }
 
 .sass2 .navbar {
   background-color: #5c5c5c;
 }
-.sass2 .navbar .navbar-nav li {
-  border: #FC7307;
+.sass2 .navbar .navbar-nav .nav-link:hover {
+  background-color: #7e5133 !important;
 }
-.sass2 .navbar .navbar-nav li:hover {
-  background-color: #f7f0f0 !important;
+.sass2 .navbar .navbar-nav #myDropdown {
+  background-color: #5c5c5c;
 }
-.sass2 .navbar .navbar-nav li:active {
-  background-color: #96908c !important;
+.sass2 .navbar .navbar-nav #myDropdown:hover {
+  background-color: #d85e01;
 }
 .sass2 .sidebar {
   background-color: #5c5c5c;
@@ -10567,13 +10566,13 @@ body {
   color: #d85e01;
 }
 .sass2 .other-products .title h5 {
-  color: #96908c;
+  color: #7e5133;
 }
 .sass2 .contact {
   background-color: #5c5c5c;
 }
 .sass2 .contact h2 {
-  color: #96908c;
+  color: #7e5133;
 }
 .sass2 h1 {
   background-color: #d85e01;
@@ -10585,7 +10584,7 @@ body {
   background-color: #f7f0f0;
 }
 .sass2 h2 {
-  background-color: #96908c;
+  background-color: #7e5133;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
@@ -10612,11 +10611,11 @@ body {
 }
 .sass2 #carousel-feature .product-details .custom-btn-primary:hover {
   color: #324242 !important;
-  background-color: #96908c;
+  background-color: #7e5133;
   border: #FC7307;
 }
 .sass2 #carousel-feature .custom-carousel-indicators-primary img.active {
-  border-color: #a10000 !important;
+  border-color: #FC7307 !important;
 }
 @charset "UTF-8";
 body {
@@ -10679,18 +10678,17 @@ nav.navbar {
     top: -7px;
   }
 }
-nav.navbar button.navbar-toggler {
-  margin: 30px auto;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
-  color: #ffffff;
-}
-
-nav.navbar button.navbar-toggler span {
-  color: #000000;
-  float: left;
-}
-
+/*nav.navbar button.navbar-toggler {
+    margin: 30px auto;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease; 
+    color: #ffffff;
+}*/
+/*nav.navbar button.navbar-toggler span {
+   color: #000000; 
+   float: left;
+   overflow: visible;
+}*/
 .modal .modal-header .close:hover {
   color: #657d97;
 }
@@ -10814,7 +10812,7 @@ nav.navbar .navbar-brand img {
   display: none;
   position: absolute;
   top: 30px;
-  background-color: #f9f9f9;
+  background-color: #000000;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(231, 229, 229, 0.2);
   margin-top: 23px;
@@ -10830,7 +10828,7 @@ nav.navbar .navbar-brand img {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #f1f1f1 !important;
+  background-color: #1d1515 !important;
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
@@ -11007,6 +11005,7 @@ section#gallery .work-gallery a {
   position: relative;
   display: inline-block;
   cursor: pointer;
+  margin: auto;
 }
 
 /*الكود المتعلق بالستارة فوق صور المنتجات */
@@ -11793,8 +11792,8 @@ time {
   }
 }
 /* منتجات اخرى*/
-section.contact .other-products .title h4 {
-  color: #758594;
+section.contact .other-products .title h2 {
+  color: #ffffff;
   font-size: 18px;
   line-height: 50px;
 }
@@ -11833,6 +11832,7 @@ section.services .card {
   border-radius: 3px;
   transition: all 1s ease;
   height: 300px;
+  margin-bottom: 25px;
 }
 
 section.services .card .card-header {

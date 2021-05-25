@@ -1,44 +1,37 @@
 @mixin slider ($border,$backround,$h1hover,$h2hover,$h1,$h2,$categoryslider3back,$btnprimary) {
 
 
-
-
-
-
-
-
-
     
-    
-        .navbar {
-                background-color: $backround;
+.navbar {
+    background-color: $backround;
+            
+.navbar-nav{
+            
                 
-                    .navbar-nav{
-                        li{
-                            border:$border ;
-                            &:hover{
-                                background-color: $h1hover !important;
-                              
-                            }
-                            &:active{
-                                background-color: $h2!important;
-                            }
-                           
-                        }
-                    }
-                
-             
+.nav-link{
+        &:hover{
+            background-color: $h2 !important;}
+                    
+
+            
         }
-        
-        
-        
-        .sidebar{
-            background-color: $backround;
-            .list-group-item{
+            #myDropdown{
+                background-color: $backround;
+                &:hover{
+                    background-color: $h1;
+                }
+            }
+               
+            
+        }
+        }
+.sidebar{
+    background-color: $backround;
+    .list-group-item{
         &:hover{
             background-color: $backround;
         }
-    }
+     }
         }
         
         
@@ -126,7 +119,7 @@
             img{
 
                 &.active{
-                    border-color: #a10000 !important;
+                    border-color: $border !important;
 
                 }
               
